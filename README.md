@@ -1,8 +1,8 @@
 # Phantom-PasteBin
 
-An add-on app for Phantom that implements an investigative action of 'fetch paste' to be triggered by email alerts sent from PasteBin.
+An add-on app for [Phantom](https://www.phantom.us/) that implements an investigative action of 'fetch paste' to be triggered by email alerts sent from PasteBin.
 
-The 'fetch paste' action downloads the paste refreneced in the alert email and saves it to the Phantom vault. A widget is also created to display the PasteID, creation time, title author and matching keyword that triggered the alert. A text box in the widget also displays the lines from the paste that matched the keywords.
+The 'fetch paste' action downloads the paste referenced in the alert email and saves it to the Phantom vault. A widget is also created to display the PasteID, creation time, title author and matching keyword that triggered the alert. A text box in the widget also displays the lines from the paste that matched the keywords.
 
 ## Installation and Configuration
 
