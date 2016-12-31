@@ -15,7 +15,7 @@ The 'fetch paste' action downloads the paste refreneced in the alert email and s
 1. Click the "Assets" tab and click on the "rest - incident" asset. On the "Ingest Settings" tab copy the values for the ph-auth-token.
 2. Now click back to the "Assets" section and click the "+ ASSET" button.
 
-- On the "Asset Definiton" tab:
+- On the "Asset Definition" tab:
 1. Asset Name: PasteBin
 2. Vendor: PasteBin (should autofill the product field)
 - On the "Asset Settings" tab:
