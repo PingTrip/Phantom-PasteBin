@@ -77,7 +77,7 @@ class PasteBinConnector(BaseConnector):
 
         try:
             self.save_progress("Fetching paste with id {0}".format(pasteid))
-            results = requests.get("https://pastebin.com/{0}".format(pasteid))
+            results = requests.get("https://pastebin.com/{0}".format(pasteid), verify=False)
         except Exception as e:
             action_result.set_status(phantom.APP_ERROR, "Failed to download paste: ", e)
             return action_result.get_status()
